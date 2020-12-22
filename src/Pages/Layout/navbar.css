@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #5E8EB0;
+}
+
+.navbar-brand1 {
+    display: block;
+    position: relative;
+}
+
+.navbar-brand2 {
+    top: 14px;
+    left: 16px;
+    position: absolute;
+}
+
+.navbar-brand2:hover {
+    opacity: 0;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: #eaeaea !important;
+}

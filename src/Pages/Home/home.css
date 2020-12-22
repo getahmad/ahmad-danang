@@ -1,0 +1,140 @@
+.project{
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.head-project h1{
+    font-weight: bold;
+    color: #5E8EB0;
+    font-size: 36px;
+}
+
+.head-project hr{
+    display: inline-block;
+    text-align: left;
+    margin-top: 0;
+    width:380px;
+    height: 5px;
+    background-color: #4A4A4A;
+}
+
+/* blog */
+
+.blog{
+    background-image: url('../../Assets//images/bg-blog.png');
+    display: block;
+    width: 100%;
+    margin-top: 60px;
+    height: 402px;
+    background-size: cover;
+}
+
+.blog .isi-blog{
+    margin: 0;
+    padding-top: 50px;
+}
+
+.note-blog h1{
+    font-weight: bold;
+    color: #5E8EB0;
+    font-size: 36px;
+}
+
+.note-blog hr{
+    display: inline-block;
+    text-align: left;
+    margin-top: 0;
+    border: 0;
+    width:110px;
+    height: 5px;
+    background-color: #4A4A4A;
+}
+
+.note-blog p{
+    line-height: 180%;
+}
+
+.content-blog .card img{
+    height: 150px;
+}
+
+
+/* sementara style mobile  */
+
+@media (max-width: 767.98px) { 
+
+    .jumbotron img{
+        display: none;
+    }
+
+    .jumbotron h1{
+        font-size: 60px;
+        padding-left: 50px;
+    }
+
+    .jumbotron p{
+        font-size: 20px;
+        padding-top: 20px;
+        padding-left: 110px;
+    }
+
+    .jumbotron h1 span{
+        padding-left: 25px;
+        color: #4a4a4a;
+    }
+
+    .btn-cv {
+        margin-left: 150px;
+    }
+
+    .about{
+        margin-top: -100px;
+        padding-top: 10px;
+    }
+
+    .about p{
+        line-height: 40px;
+        font-size: 22px;
+        padding-top: 20px;
+    }
+
+    .about .konten1 img{
+        margin-top: 20px;
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .isi-project1{
+        display: none;
+    }
+    .isi-project2{
+        display: none;
+    }
+    .isi-project img{
+        width: 100%;
+    }
+    
+    .project hr {
+        width: 100%;
+    }
+
+    .about h1{
+        font-size: 30px;
+    }
+    .project h1 {
+        font-size: 30px;
+    }
+    .blog h1{
+        font-size: 30px;
+    }
+    .contact h1{
+        font-size: 30px;
+    }
+
+    .contact{
+        margin-top: 520px;
+    }
+
+
+ }

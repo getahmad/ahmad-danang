@@ -1,0 +1,26 @@
+.about{
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.about h1{ 
+    text-align: center;
+    font-weight: bold;
+    color: #5E8EB0;
+    font-size: 36px;
+}
+
+.about hr{
+    margin-top: 0;
+    border: 0;
+    width:130px;
+    height: 5px;
+    background-color: #4A4A4A;
+}
+
+.about p{
+    padding-top: 50px;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: justify;
+}
