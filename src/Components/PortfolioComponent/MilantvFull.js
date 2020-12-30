@@ -24,7 +24,7 @@ const MilantvFull = () => {
             </div>
             <div className="col-lg-6 mb-4">
               <p>
-                Milan TV is a mini project for reviewing a film and you can add
+                Milan TV is a mini project for review a movies and you can add
                 movies to your watchlist by register first.
               </p>
               <div className="row">
