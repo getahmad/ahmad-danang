@@ -58,7 +58,7 @@ const TalikasihFull = (props) => {
               </div>
               <div className="col-lg-10">
                 Login/Register, Discover Campaign, Create Campaign, Donation, Update Campaign,
-                Filter by category, search by title and Admin Panel to to confirm donation
+                Filter by category, search by title and Admin Panel to confirm donation
               </div>
             </div>
           </div>
