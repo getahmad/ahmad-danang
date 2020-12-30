@@ -92,7 +92,7 @@ const MilantvFull = () => {
           </div>
         </div>
       </div>
-      <div className="d-flex justify-content-center mt-5">
+      <div className="d-flex justify-content-center">
         <Link to="/portfolio">
           <button className="btn btn-back">Back </button>
         </Link>
