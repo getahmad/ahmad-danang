@@ -52,7 +52,7 @@ const TalikasihFull = (props) => {
               <div className="col-lg-2">
                 <strong>Duration</strong>
               </div>
-              <div className="col-lg-10">: 2 Sprints 4 Weeks</div>
+              <div className="col-lg-10"> 2 Sprints 4 Weeks</div>
               <div className="col-lg-2">
                 <strong>features</strong>
               </div>
