@@ -47,6 +47,7 @@
     margin-left: 100px;
     background-color: white !important;
     border-radius: 5px !important;
+    font-weight: bold;
 }
 
 .jumbotron a .btn-cv{
@@ -86,8 +87,5 @@
     .btn-cv {
         margin-left: 150px;
     }
-
-  
-
 
  }
