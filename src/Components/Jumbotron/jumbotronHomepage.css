@@ -46,7 +46,7 @@
     margin-top: 20px;
     margin-left: 100px;
     background-color: white !important;
-    border-radius: 10px !important;
+    border-radius: 5px !important;
 }
 
 .jumbotron a .btn-cv{
@@ -60,3 +60,34 @@
 .btn-cv:hover{
     background-color: #eaeaea !important;
 }
+
+@media (max-width: 767.98px) { 
+
+    .jumbotron img{
+        display: none;
+    }
+
+    .jumbotron h1{
+        font-size: 60px;
+        padding-left: 50px;
+    }
+
+    .jumbotron p{
+        font-size: 20px;
+        padding-top: 20px;
+        padding-left: 110px;
+    }
+
+    .jumbotron h1 span{
+        padding-left: 25px;
+        color: #4a4a4a;
+    }
+
+    .btn-cv {
+        margin-left: 150px;
+    }
+
+  
+
+
+ }

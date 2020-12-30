@@ -10,19 +10,19 @@ const Footer = () => {
       <div className="contact " id="contact">
         <h1>Get In Touch</h1>
         <div className="icon">
-          <a href="https://www.instagram.com/ahmaddanang__/" target="_blank">
+          <a href="https://www.instagram.com/ahmaddanang__/" target="_blank" rel="noreferrer">
             <img src={ICInstagram} alt="instagram" />
           </a>
-          <a href="https://github.com/getahmad" target="_blank">
+          <a href="https://github.com/getahmad" target="_blank" rel="noreferrer">
             <img src={ICGithub} alt="github" />
           </a>
-          <a href="https://dribbble.com/getahmad" target="_blank">
+          <a href="https://dribbble.com/getahmad" target="_blank" rel="noreferrer"> 
             <img src={ICDribble} alt="dribbble" />
             <img src="" alt="" />
           </a>
           <a
             href="https://www.linkedin.com/in/ahmad-danang-85896513a/"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <img src={ICLinkedin} alt="linkedin" />
           </a>

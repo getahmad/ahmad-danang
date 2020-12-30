@@ -1,26 +1,26 @@
 import About from "../../Components/About/About";
-import Jumbotron from "../../Components/Jumbotron/Jumbotron";
-import MilanTv from "../../Components/ProjectApps/TaliKasih";
-import TaliKasih from "../../Components/ProjectApps/MilanTv";
+import MilanTv from "../../Components/PortfolioComponent/TaliKasih";
+import TaliKasih from "../../Components/PortfolioComponent/MilanTv";
 import Footer from "../Layout/Footer";
 import Navbar from "../Layout/Navbar";
 import "./home.css";
 import CardBlog from "../../Components/BlogComponent/CardBlog";
-// import { Link } from "react-router-dom";
+import JumbotronHomepage from "../../Components/Jumbotron/JumbotronHomepage";
+import AOS from 'aos'
 
 const Home = () => {
+  AOS.init();
   return (
     <>
       <Navbar />
-      <Jumbotron />
+      <JumbotronHomepage />
       <About />
       <div className="project" id="project">
         <div className="container">
-          <div class="row-lg-12 head-project ">
+          <div className="row-lg-12 head-project ">
             <h1 data-aos="flip-right">SELECTED PROJECTS.</h1>
             <hr />
           </div>
-
           <MilanTv />
           <TaliKasih />
         </div>

@@ -1,5 +1,5 @@
-import ProfileImg from "../../Assets/images/about-profile.png"
-import "./about.css"
+import ProfileImg from "../../Assets/images/about-profile.png";
+import "./about.css";
 
 const About = () => {
   return (
@@ -14,10 +14,7 @@ const About = () => {
             data-aos-offset="320"
             data-aos-easing="ease-in-sine"
           >
-            <img
-              src={ProfileImg}
-              alt="profile ahmad danang"
-            />
+            <img src={ProfileImg} alt="profile ahmad danang" />
           </div>
           <div
             className="col-md-12 col-lg-6 offset-lg-1 "
@@ -26,10 +23,10 @@ const About = () => {
             data-aos-easing="ease-in-sine"
           >
             <p>
-              You can call me <strong>Danang</strong>. Born in Palembang, March
-              22 1998. Graduated in 2019 from the State Polytechnic of Sriwijaya
-              majoring in computer engineering. Now domicile in Banyuasin, South
-              Sumatra. Currently studying frontend developer at Glints Academy.
+              This is Ahmad Danang. He is a person who has a high desire to
+              learn and currently very motivated to explore his abilities by
+              taking new opportunities to start a career as a Front End
+              Developer.
             </p>
           </div>
         </div>

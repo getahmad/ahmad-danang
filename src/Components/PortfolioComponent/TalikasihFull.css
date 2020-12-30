@@ -1,0 +1,40 @@
+.desc-content p{
+    font-size: 16px;
+    line-height: 33px;
+}
+
+.btn-back{
+    background-color: #5E8EB0 !important;
+    color: white !important;
+    width: 100px;
+    margin-top: 100px;
+}
+.btn-back:hover{
+    background-color: #7fa7c4 !important;
+    color: white !important;
+}
+
+.style-icon{
+    text-align: center;
+}
+
+.style-icon img{
+    width: 50px;
+    margin-left: 20px;
+}
+
+.style-icon img:hover{
+    transform: scale(1.2);
+}
+
+.carousel-talikasih h5{
+    color: #ffffff;
+    background-color: #7fa7c4 ;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.carousel-caption{
+    padding-bottom: 0 !important;
+}

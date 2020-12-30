@@ -25,7 +25,7 @@
     display: block;
     width: 100%;
     margin-top: 60px;
-    height: 402px;
+    /* height: 402px; */
     background-size: cover;
 }
 
@@ -131,10 +131,10 @@
     .contact h1{
         font-size: 30px;
     }
-
+/* 
     .contact{
         margin-top: 520px;
-    }
+    } */
 
 
  }

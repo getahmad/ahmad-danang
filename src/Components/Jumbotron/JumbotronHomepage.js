@@ -1,7 +1,8 @@
 import ImgDanang from "../../Assets/images/danang.png";
-import "./jumbotron.css";
+import "./jumbotronHomepage.css";
+import CVDanang from "../../Assets/images/cv-danang.pdf";
 
-const Jumbotron = () => {
+const JumbotronHomepage = () => {
   return (
     <>
       <div className="jumbotron" id="home">
@@ -14,7 +15,7 @@ const Jumbotron = () => {
             AHMAD<span> DANANG</span>
           </h1>
           <p>Frontend Developer Learner</p>
-          <a href="assets/images/cv-danang.pdf" target="_blank">
+          <a href={CVDanang}>
             <button type="button" className="btn btn-cv">
               Curriculum Vitae
             </button>
@@ -26,4 +27,4 @@ const Jumbotron = () => {
   );
 };
 
-export default Jumbotron;
+export default JumbotronHomepage;
