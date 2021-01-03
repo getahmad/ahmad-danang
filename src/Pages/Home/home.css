@@ -21,7 +21,8 @@
 /* blog */
 
 .blog{
-    background-image: url('../../Assets//images/bg-blog.png');
+    /* background-image: url('../../Assets//images/bg-blog.png'); */
+    background-image: url('../../Assets//images/bg-blog.svg');
     display: block;
     width: 100%;
     margin-top: 60px;
