@@ -24,8 +24,8 @@ const MilantvFull = () => {
             </div>
             <div className="col-lg-6 mb-4">
               <p>
-                Milan TV is a mini project for reviewing a film and you can add
-                movies to your watchlist by registering first.
+                Milan TV is a mini project for review a movies and you can add
+                movies to your watchlist by register first.
               </p>
               <div className="row">
                 <div className="col-lg-2 col-md-2"><strong>Role</strong></div>
@@ -36,7 +36,7 @@ const MilantvFull = () => {
                 </div>
                 <div className="col-lg-2"><strong>Duration</strong></div>
                 <div className="col-lg-10">2 Weeks</div>
-                <div className="col-lg-2"><strong>features</strong></div>
+                <div className="col-lg-2"><strong>Features</strong></div>
                 <div className="col-lg-10">
                    Login/Register, Get All Movies,Detail Movie, Comment and
                   rating, profile, sort by category, search by title, and add

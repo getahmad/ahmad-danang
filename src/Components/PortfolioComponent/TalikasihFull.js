@@ -52,13 +52,13 @@ const TalikasihFull = (props) => {
               <div className="col-lg-2">
                 <strong>Duration</strong>
               </div>
-              <div className="col-lg-10"> 2 Sprints 4 Weeks</div>
+              <div className="col-lg-10"> 4 Weeks</div>
               <div className="col-lg-2">
-                <strong>features</strong>
+                <strong>Features</strong>
               </div>
               <div className="col-lg-10">
-                Login/Register, Discover Campaign, Create Campaign, Donation,
-                Filter and Admin Panel
+                Login/Register, Discover Campaign, Create Campaign, Donation, Update Campaign,
+                Filter by category, search by title and Admin Panel to confirm donation
               </div>
             </div>
           </div>
