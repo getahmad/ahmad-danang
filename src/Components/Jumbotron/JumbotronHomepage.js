@@ -1,6 +1,6 @@
 import ImgDanang from "../../Assets/images/danang.png";
 import "./jumbotronHomepage.css";
-// import CVDanang from "../../Assets/images/cv-danang.pdf";
+import Resume from "../../Assets/resume-ahmaddanang.pdf"
 
 const JumbotronHomepage = () => {
   return (
@@ -15,10 +15,9 @@ const JumbotronHomepage = () => {
             AHMAD<span> DANANG</span>
           </h1>
           <p>Frontend Developer Learner</p>
-          {/* <a href={CVDanang}> */}
-          <a href="/">
+          <a href={Resume}>
             <button type="button" className="btn btn-cv">
-              Curriculum Vitae
+              Resume
             </button>
           </a>
           <img src={ImgDanang} alt="ahmad danang" />
