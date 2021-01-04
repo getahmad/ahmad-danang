@@ -72,22 +72,22 @@ const MilantvFull = () => {
           <div className="col-lg-12">
             <h2 className="text-center mb-4">Screenshot</h2>
           </div>
-          <div className="col-lg-6 mb-3">
+          <div className="col-6 mb-3">
             <img src={SSRegister} alt="" width="100%" />
           </div>
-          <div className="col-lg-6 mb-3">
+          <div className="col-6 mb-3">
             <img src={SSLogin} alt="" width="100%" />
           </div>
-          <div className="col-lg-6 mb-3">
+          <div className="col-6 mb-3">
             <img src={SSHome} alt="" width="100%" />
           </div>
-          <div className="col-lg-6 mb-3">
+          <div className="col-6 mb-3">
             <img src={SSMovies} alt="" width="100%" />
           </div>
-          <div className="col-lg-6 mb-3">
+          <div className="col-6 mb-3">
             <img src={SSDetail} alt="" width="100%" />
           </div>
-          <div className="col-lg-6 mb-3">
+          <div className="col-6 mb-3">
             <img src={SSProfile} alt="" width="100%" />
           </div>
         </div>
