@@ -5,10 +5,25 @@ import Fade from "react-reveal/Fade";
 import AksenJumbotron from "../../Assets/icon/AksenJumbotron.svg";
 
 const JumbotronHomepage = () => {
+  window.onscroll = function () {
+    scrollRotate();
+  };
+
+  function scrollRotate() {
+    let image1 = document.getElementById("reload1");
+    image1.style.transform = "rotate(" + window.pageYOffset / 2 + "deg)";
+    let image2 = document.getElementById("reload2");
+    image2.style.transform = "rotate(" + window.pageYOffset / 2 + "deg)";
+  }
   return (
     <>
       <div className="jumbotron" id="home">
-        <img src={AksenJumbotron} alt="" className="style-aksen-1" />
+        <img
+          src={AksenJumbotron}
+          alt=""
+          className="style-aksen-1"
+          id="reload1"
+        />
 
         <div className="container for-about">
           <Fade bottom>
@@ -25,7 +40,14 @@ const JumbotronHomepage = () => {
               </button>
             </a>
           </Fade>
-          <img src={AksenJumbotron} alt="" className="style-aksen-2" />
+
+          <img
+            src={AksenJumbotron}
+            alt=""
+            className="style-aksen-2 "
+            id="reload2"
+          />
+
           <Fade bottom delay={200}>
             <img src={ImgDanang} alt="ahmad danang" />
           </Fade>
