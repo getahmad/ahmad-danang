@@ -10,7 +10,7 @@ const TaliKasih = () => {
         <div className="isi-project col-lg-6">
           <Fade left>
             <Link to="portfolio/Tali Kasih" className="style-project-homepage">
-              <img src={ImgTalikasih} alt="" />
+              <img src={ImgTalikasih} alt="tali kasih" />
             </Link>
           </Fade>
         </div>

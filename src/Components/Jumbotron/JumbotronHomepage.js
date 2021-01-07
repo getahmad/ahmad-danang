@@ -5,16 +5,16 @@ import Fade from "react-reveal/Fade";
 import AksenJumbotron from "../../Assets/icon/AksenJumbotron.svg";
 
 const JumbotronHomepage = () => {
-  window.onscroll = function () {
-    scrollRotate();
-  };
+  // window.onscroll = function () {
+  //   scrollRotate();
+  // };
 
-  function scrollRotate() {
-    let image1 = document.getElementById("reload1");
-    image1.style.transform = "rotate(" + window.pageYOffset / 2 + "deg)";
-    let image2 = document.getElementById("reload2");
-    image2.style.transform = "rotate(" + window.pageYOffset / 2 + "deg)";
-  }
+  // function scrollRotate() {
+  //   let image1 = document.getElementById("reload1");
+  //   image1.style.transform = "rotate(" + window.pageYOffset / 2 + "deg)";
+  //   let image2 = document.getElementById("reload2");
+  //   image2.style.transform = "rotate(" + window.pageYOffset / 2 + "deg)";
+  // }
   return (
     <>
       <div className="jumbotron" id="home">

@@ -23,7 +23,7 @@ const MilanTv = () => {
         <div className="isi-project col-lg-6">
           <Fade right>
             <Link to="portfolio/Milan TV" className="style-project-homepage">
-              <img src={ImgMilanTv} alt="" />
+              <img src={ImgMilanTv} alt="milantv" />
             </Link>
           </Fade>
         </div>
