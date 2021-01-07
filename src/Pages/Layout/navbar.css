@@ -1,3 +1,7 @@
+.navbar-background{
+    background-color: #5E8EB0;
+}
+
 .navbar {
     background-color: #5E8EB0;
 }
@@ -26,3 +30,12 @@
 .nav-link:hover {
     color: #eaeaea !important;
 }
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("../../Assets/icon/Icon-toggle.svg") !important;
+}
+  
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255, 255, 255) !important;
+  } 

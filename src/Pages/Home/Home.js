@@ -6,10 +6,9 @@ import Navbar from "../Layout/Navbar";
 import "./home.css";
 import CardBlog from "../../Components/BlogComponent/CardBlog";
 import JumbotronHomepage from "../../Components/Jumbotron/JumbotronHomepage";
-import AOS from 'aos'
+import Fade from "react-reveal/Fade";
 
 const Home = () => {
-  AOS.init();
   return (
     <>
       <Navbar />
@@ -18,7 +17,7 @@ const Home = () => {
       <div className="project" id="project">
         <div className="container">
           <div className="row-lg-12 head-project ">
-            <h1 data-aos="flip-right">SELECTED PROJECTS.</h1>
+            <h1>SELECTED PROJECTS.</h1>
             <hr />
           </div>
           <MilanTv />
@@ -30,19 +29,18 @@ const Home = () => {
         <div className="container">
           <div className="row isi-blog">
             <div className="note-blog col-lg-4">
-              <h1 data-aos="flip-right">BLOG.</h1>
+              <h1>BLOG.</h1>
               <hr />
-              <p
-                data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine"
-              >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-                exercitationem, neque velit nisi dicta animi ipsam placeat,
-                voluptatibus molestiae facilis, eius et voluptate cupiditate ex
-                vero nihil sunt. Deleniti, amet?
-              </p>
+              <Fade bottom>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ratione exercitationem, neque velit nisi dicta animi ipsam
+                  placeat, voluptatibus molestiae facilis, eius et voluptate
+                  cupiditate ex vero nihil sunt. Deleniti, amet?
+                </p>
+              </Fade>
             </div>
+
             <CardBlog />
 
             <CardBlog />

@@ -4,8 +4,8 @@ import "./CardProject.css";
 const CardProject = (props) => {
   return (
     <>
-      <Link to={`portfolio/${props.title}`} className="style-link-card" >
-        <div className="card" style={{ width: "100%",marginBottom:"20px" }}>
+      <Link to={`portfolio/${props.title}`} className="style-link-card">
+        <div className="card" style={{ width: "100%", marginBottom: "20px" }}>
           <img src={props.image} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">{props.title}</h5>
