@@ -39,26 +39,25 @@ const TalikasihFull = (props) => {
               good causes.
             </p>
             <div className="row">
-              <div className="col-lg-2">
+              <div className="col-2">
                 <strong>Role</strong>
               </div>
-              <div className="col-lg-10"> Frontend Developer</div>
-              <div className="col-lg-2">
+              <div className="col-10"> Frontend Developer</div>
+              <div className="col-2">
                 <strong>Team</strong>
               </div>
-              <div className="col-lg-10">
-                3 Backend, 3 Frontend and 2 React Native
-              </div>
-              <div className="col-lg-2">
+              <div className="col-10">3 Backend, 3 Frontend and 2 Mobile</div>
+              <div className="col-2">
                 <strong>Duration</strong>
               </div>
-              <div className="col-lg-10"> 4 Weeks</div>
-              <div className="col-lg-2">
+              <div className="col-10"> 4 Weeks</div>
+              <div className="col-2">
                 <strong>Features</strong>
               </div>
-              <div className="col-lg-10">
-                Login/Register, Discover Campaign, Create Campaign, Donation, Update Campaign,
-                Filter by category, search by title and Admin Panel to confirm donation
+              <div className="col-10">
+                Login/Register, Discover Campaign, Create Campaign, Donation,
+                Update Campaign, Filter by category, search by title and Admin
+                Panel to confirm donation
               </div>
             </div>
           </div>

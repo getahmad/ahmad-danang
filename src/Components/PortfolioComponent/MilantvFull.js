@@ -28,17 +28,23 @@ const MilantvFull = () => {
                 movies to your watchlist by register first.
               </p>
               <div className="row">
-                <div className="col-lg-2 col-md-2"><strong>Role</strong></div>
-                <div className="col-lg-10 col-md-10"> Frontend Developer</div>
-                <div className="col-lg-2"><strong>Team</strong></div>
-                <div className="col-lg-10">
-                   3 Backend, 3 Frontend and 2 React Native
+                <div className="col-2 ">
+                  <strong>Role</strong>
                 </div>
-                <div className="col-lg-2"><strong>Duration</strong></div>
-                <div className="col-lg-10">2 Weeks</div>
-                <div className="col-lg-2"><strong>Features</strong></div>
-                <div className="col-lg-10">
-                   Login/Register, Get All Movies,Detail Movie, Comment and
+                <div className="col-10"> Frontend Developer</div>
+                <div className="col-2">
+                  <strong>Team</strong>
+                </div>
+                <div className="col-10">3 Backend, 3 Frontend and 2 Mobile</div>
+                <div className="col-2">
+                  <strong>Duration</strong>
+                </div>
+                <div className="col-10">2 Weeks</div>
+                <div className="col-2">
+                  <strong>Features</strong>
+                </div>
+                <div className="col-10">
+                  Login/Register, Get All Movies,Detail Movie, Comment and
                   rating, profile, sort by category, search by title, and add
                   watchlist
                 </div>
