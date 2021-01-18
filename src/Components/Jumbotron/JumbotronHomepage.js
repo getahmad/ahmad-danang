@@ -1,6 +1,6 @@
 import ImgDanang from "../../Assets/images/danang.png";
 import "./jumbotronHomepage.css";
-import Resume from "../../Assets/resume-ahmaddanang.pdf";
+// import Resume from "../../Assets/resume-ahmaddanang.pdf";
 import Fade from "react-reveal/Fade";
 import AksenJumbotron from "../../Assets/icon/AksenJumbotron.svg";
 
@@ -34,7 +34,7 @@ const JumbotronHomepage = () => {
             <p>Frontend Developer Learner</p>
           </Fade>
           <Fade bottom delay={300}>
-            <a href={Resume}>
+            <a href="">
               <button type="button" className="btn btn-cv">
                 Resume
               </button>
