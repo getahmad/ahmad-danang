@@ -33,13 +33,13 @@ const JumbotronHomepage = () => {
 
             <p>Frontend Developer Learner</p>
           </Fade>
-          <Fade bottom delay={300}>
-            <a href="">
+          {/* <Fade bottom delay={300}>
+            <a href="/">
               <button type="button" className="btn btn-cv">
                 Resume
               </button>
             </a>
-          </Fade>
+          </Fade> */}
 
           <img
             src={AksenJumbotron}
