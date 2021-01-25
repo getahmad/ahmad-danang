@@ -14,14 +14,14 @@ const PortfolioFull = () => {
         <Route path="/portfolio/:Tali Kasih">
           <TalikasihFull />
         </Route>
-        <Route path="/portfolio/:Staycation">
-          <StaycationFull />
-        </Route>
         <Route path="/portfolio/:Milan TV">
           <MilantvFull />
         </Route>
         <Route path="/portfolio/:UI Nomads">
           <UINomadsFull />
+        </Route>
+        <Route exact path="/portfolio/:Staycation">
+          <StaycationFull />
         </Route>
       </Switch>
       <Footer />
