@@ -28,3 +28,12 @@
     font-size: 13px !important;
     line-height: 22px !important;
 }
+
+.card-body span{
+    background-color: #5E8EB0;
+    color: #ffffff;
+    padding:7px;
+    font-size: 10px;
+    margin:3px;
+    border-radius: 7px;
+}

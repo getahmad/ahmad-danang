@@ -4,6 +4,7 @@ import Footer from "../Layout/Footer";
 import Navbar from "../Layout/Navbar";
 import ImgTalikasi from "../../Assets/images/talikasih.png";
 import ImgMilantv from "../../Assets/images/mlan-tv.png";
+import Staycation from "../../Assets/images/staycation.png";
 import ImgNomads from "../../Assets/images/ui-nomads.png";
 import Fade from "react-reveal/Fade";
 
@@ -30,6 +31,18 @@ const Portfolio = () => {
               </Fade>
             </div>
             <div className="col-lg-4">
+              <Fade bottom delay={150}>
+                <CardProject
+                  image={Staycation}
+                  title="Staycation"
+                  stack1="ReactJs"
+                  stack2="ExpressJs"
+                  stack3="Mongodb"
+                  content="Staycation applications to easily search for houses, hotels, and apartments through the website."
+                />
+              </Fade>
+            </div>
+            <div className="col-lg-4">
               <Fade bottom delay={100}>
                 <CardProject
                   image={ImgMilantv}
@@ -41,6 +54,7 @@ const Portfolio = () => {
                 />
               </Fade>
             </div>
+
             <div className="col-lg-4">
               <Fade bottom delay={150}>
                 <CardProject
