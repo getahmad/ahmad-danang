@@ -4,9 +4,9 @@ import TaliKasih from "../../Components/PortfolioComponent/MilanTv";
 import Footer from "../Layout/Footer";
 import Navbar from "../Layout/Navbar";
 import "./home.css";
-import CardBlog from "../../Components/BlogComponent/CardBlog";
 import JumbotronHomepage from "../../Components/Jumbotron/JumbotronHomepage";
-import Fade from "react-reveal/Fade";
+// import CardBlog from "../../Components/BlogComponent/CardBlog";
+// import Fade from "react-reveal/Fade";
 
 const Home = () => {
   return (
@@ -25,7 +25,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="blog" id="blog">
+      {/* <div className="blog" id="blog">
         <div className="container">
           <div className="row isi-blog">
             <div className="note-blog col-lg-4">
@@ -46,7 +46,7 @@ const Home = () => {
             <CardBlog />
           </div>
         </div>
-      </div>
+      </div> */}
 
       <Footer />
     </>

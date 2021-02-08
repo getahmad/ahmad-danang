@@ -6,6 +6,7 @@ import ImgTalikasi from "../../Assets/images/talikasih.png";
 import ImgMilantv from "../../Assets/images/mlan-tv.png";
 import Staycation from "../../Assets/images/staycation.png";
 import ImgNomads from "../../Assets/images/ui-nomads.png";
+// import ImgHefaStore from "../../Assets/images/hefa_store/cover_hefastore.jpg";
 import Fade from "react-reveal/Fade";
 
 import "./portfolio.css";
@@ -42,6 +43,7 @@ const Portfolio = () => {
                 />
               </Fade>
             </div>
+
             <div className="col-lg-4">
               <Fade bottom delay={100}>
                 <CardProject
@@ -54,6 +56,19 @@ const Portfolio = () => {
                 />
               </Fade>
             </div>
+
+            {/* <div className="col-lg-4">
+              <Fade bottom delay={100}>
+                <CardProject
+                  image={ImgHefaStore}
+                  title="Hefa Store"
+                  stack1="Bootstrap"
+                  stack2="---"
+                  stack3="---"
+                  content="Milan TV is a movie review app, which can review a movie and can give a rating. can search by category or title"
+                />
+              </Fade>
+            </div> */}
 
             <div className="col-lg-4">
               <Fade bottom delay={150}>
