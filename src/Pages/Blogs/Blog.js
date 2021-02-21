@@ -7,7 +7,7 @@ const Blogs = (props) => {
     <>
       <Navbar />
       <JumbotronPages name="Blog" />
-      <h1 className="text-center mt-5 mb-5">Noting</h1>
+      <h1 className="text-center mt-5 mb-5">Nothing</h1>
       <Footer />
     </>
   );
