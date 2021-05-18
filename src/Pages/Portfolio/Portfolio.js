@@ -31,7 +31,7 @@ const Portfolio = () => {
                 />
               </Fade>
             </div>
-            <div className="col-lg-4">
+            {/* <div className="col-lg-4">
               <Fade bottom delay={150}>
                 <CardProject
                   image={Staycation}
@@ -42,7 +42,7 @@ const Portfolio = () => {
                   content="Staycation applications to easily search for houses, hotels, and apartments through the website."
                 />
               </Fade>
-            </div>
+            </div> */}
 
             <div className="col-lg-4">
               <Fade bottom delay={100}>

@@ -20,9 +20,9 @@ const PortfolioFull = () => {
         <Route path="/portfolio/:UI Nomads">
           <UINomadsFull />
         </Route>
-        <Route exact path="/portfolio/:Staycation">
+        {/* <Route exact path="/portfolio/:Staycation">
           <StaycationFull />
-        </Route>
+        </Route> */}
       </Switch>
       <Footer />
     </>
