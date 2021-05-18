@@ -4,7 +4,7 @@ import Footer from "../Layout/Footer";
 import Navbar from "../Layout/Navbar";
 import ImgTalikasi from "../../Assets/images/talikasih.png";
 import ImgMilantv from "../../Assets/images/mlan-tv.png";
-import Staycation from "../../Assets/images/staycation.png";
+// import Staycation from "../../Assets/images/staycation.png";
 import ImgNomads from "../../Assets/images/ui-nomads.png";
 // import ImgHefaStore from "../../Assets/images/hefa_store/cover_hefastore.jpg";
 import Fade from "react-reveal/Fade";
